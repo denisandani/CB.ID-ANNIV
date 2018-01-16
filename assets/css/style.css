@@ -157,10 +157,10 @@ a:hover{
 	}
 	.box-white{
 		background:#fff;
-		padding:30px!important;
+		padding:10px!important;
 		margin-bottom:10%!important;
 		z-index:1!important;
-		width:80%;
+		width:90%;
 	}
     
 }
