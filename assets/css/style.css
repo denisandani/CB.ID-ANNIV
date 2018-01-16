@@ -49,7 +49,7 @@ a:hover{
 @media screen and (max-width: 480px) {
 	.s-one{
 		background:#dbebe9 url('../images/mobile/1-bg-mb.jpg') top left no-repeat;
-		width:100%;
+		width:80%;
 		height:700px;
 	}
 }
@@ -125,7 +125,7 @@ a:hover{
 }
 .img-s-1m{
 	position:absolute;
-	right:5%;
+	right:10%;
 	margin-top:25%;
 	width:90%;
 }
