@@ -64,7 +64,7 @@ a:hover{
 @media screen and (max-width: 480px){
 .s-two{
 	background:#dbebe9 url('../images/mobile/2-bgmb-kanan.jpg') bottom right no-repeat;
-	width:100%;
+	width:90%;
 	padding-bottom:15px;
 	height:600px;
 }
@@ -88,7 +88,7 @@ a:hover{
 @media screen and (max-width: 480px){
 .s-four{
 	background:#dbebe9 url('../images/mobile/4-bg-mb.jpg') bottom left no-repeat;
-	width:100%;
+	width:90%;
     height: auto;
     padding-top: 20px;
     padding-bottom: 80px;
