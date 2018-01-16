@@ -1,0 +1,229 @@
+/* CSS Document */
+@font-face {
+    font-family: gothambook;
+    src: url('../fonts/Gotham-Book.otf');
+}
+body{
+	font-family:gothambook;
+	font-size:2vh;
+	overflow-x: hidden;
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+.image-block {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #73cdd2;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+.container-image {
+  position: relative;
+  width: 50%;
+}
+.container-image:hover .overlay {
+  height: 100%;
+}
+
+/*section*/
+@media screen and (min-width: 481px) {
+	.s-one{
+		background:#dbebe9 url('../images/desktop/1-bg.jpg') top left no-repeat ;
+		width:100%;
+		height:770px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.s-one{
+		background:#dbebe9 url('../images/desktop/1-bg.jpg') top left no-repeat 100% ;
+		width:100%;
+		height:720px;
+        
+	}
+}
+.s-two{
+	background:#dbebe9 url('../images/desktop/2-bg-kanan.jpg') bottom right no-repeat;
+	width:100%;
+	padding-bottom:40px;
+	height:700px;
+}
+.s-three{
+	background:#dbebe9;
+	width:100%;
+    height: auto;
+    padding-top: 20px;
+	padding-bottom:20px;
+}
+.s-four{
+	background:#dbebe9 url('../images/desktop/4-bg.jpg') bottom left no-repeat;
+	width:100%;
+    height: 650px;
+    padding-top: 30px;
+}
+.s-five{
+	background:#2c2d2d;
+	width:100%;
+	padding-bottom:20px;
+}
+/*!section*/
+/*misc*/
+.img-s-1{
+	position:absolute;
+    left:5%;
+    top: 30%;
+}
+.img-s-2{
+	position:absolute;
+	left:8%;
+	margin-top:12%;
+}
+.img-s-3{
+	position:absolute;
+    left:35%;
+    bottom: -42%;
+}
+.img-s-4{
+	position:absolute;
+    left:35%;
+}
+.img-s-1m{
+	position:absolute;
+	right:2%;
+	margin-top:20%;
+	width:90%;
+}
+.img-s-2m{
+	position:absolute;
+	right:15%;
+	margin-top:50%;
+	width:90%;
+}
+.text-right{
+	text-align:right!important;
+}
+.text{
+	line-height:3vh!important;
+}
+.text-black{
+	color:#000000!important;
+}
+.text-purple{
+	color:#b368c1!important;
+}
+.text-white{
+	color:#fff!important;
+}
+
+.box-white{
+	background:#fff;
+	padding:30px!important;
+	z-index:1!important;
+	width:80%;
+}
+
+@media screen and (min-width: 481px) {
+	.agak-atas2{
+		margin-top:111px!important;
+	}
+	.box-white{
+		background:#fff;
+		padding:30px!important;
+		z-index:1!important;
+		width:80%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.agak-atas2{
+		margin-top:-25%!important;
+	}
+	.box-white{
+		background:#fff;
+		padding:30px!important;
+		margin-bottom:10%!important;
+		z-index:1!important;
+		width:80%;
+	}
+    
+}
+.pos-relative{
+	position:relative;
+}
+.absolute-right{
+	position:absolute;
+	right:5%!important;
+}
+.absolute-left{
+	position:relative;
+	left:5%!important;
+}
+.absolute-bottom{
+	position:absolute;
+	bottom:5%!important;
+}
+.absolute-top{
+	position:relative;
+	top:5%!important;
+}
+
+.absolute-custom-1{
+	position:absolute;
+	right:10%;
+	top:30%;
+}
+.absolute-custom-2{
+	position:absolute;
+	bottom:0;
+}
+.marbot{
+	margin-bottom:50px!important;
+}
+.panah-atas{
+	position:absolute;
+	top:10%;
+	left:40%;
+}
+.panah-bawah{
+	position:absolute;
+	bottom:0;
+	left:40%;
+}
+.panah-kanan{
+	position:absolute;
+	top:46%;
+	right:4%;
+}
+.panah-kiri{
+	position:absolute;
+	top:46%;
+	left:4%;
+}
+.rotate200{
+	transform: rotate(200deg);
+}
+.rotate180{
+	transform: rotate(180deg);
+}
+.anmted-fill-none{
+	animation-fill-mode: none!important;
+	z-index:1;
+}
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float:right;
+}
+/*!misc*/
