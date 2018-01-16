@@ -163,7 +163,7 @@ a:hover{
 }
 
 @media screen and (min-width: 481px) {
-	.agak-atas2{
+	.box-atas{
 		margin-top:111px!important;
 	}
 	.box-white{
@@ -174,7 +174,7 @@ a:hover{
 	}
 }
 @media screen and (max-width: 480px) {
-	.agak-atas2{
+	.box-atas{
 		margin-top:25%!important;
 	}
 	.box-white{
