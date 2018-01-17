@@ -66,7 +66,7 @@ a:hover{
 	background:#dbebe9 url('../images/mobile/2-bgmb-kanan.jpg') bottom right no-repeat;
 	width:100%;
 	padding-bottom:15px;
-	height:600px;
+	height:auto;
 }
     }
 .s-three{
@@ -80,7 +80,7 @@ a:hover{
 .s-four{
 	background:#dbebe9 url('../images/mobile/4-bg-mb.jpg') bottom left no-repeat;
 	width:100%;
-    height: auto;
+    height: 1020px;
     padding-top: 20px;
     padding-bottom: 80px;
 }
