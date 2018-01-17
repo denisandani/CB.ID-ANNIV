@@ -80,7 +80,7 @@ a:hover{
 .s-four{
 	background:#dbebe9 url('../images/mobile/4-bg-mb.jpg') bottom left no-repeat;
 	width:100%;
-    height: 1000px;
+    height: auto;
     padding-top: 20px;
     padding-bottom: 80px;
 }
@@ -89,7 +89,7 @@ a:hover{
 .s-four{
 	background:#dbebe9 url('../images/mobile/4-bg-mb.jpg') bottom left no-repeat;
 	width:100%;
-    height: 600px;
+    height: auto;
     padding-top: 20px;
     padding-bottom: 80px;
 }
@@ -169,14 +169,14 @@ a:hover{
 }
 @media screen and (max-width: 480px) {
 	.box-atas{
-		margin-top:15%!important;
+		margin-top:5%!important;
 	}
 	.box-white{
 		background:#fff;
 		padding:10px!important;
 		margin-bottom:10%!important;
 		z-index:1!important;
-		width:80%;
+		width:90%;
 	}
     
 }
