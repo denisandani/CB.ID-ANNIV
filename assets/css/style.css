@@ -63,7 +63,7 @@ a:hover{
     }
 @media screen and (max-width: 480px){
 .s-two{
-	background:#dbebe9 url('../images/mobile/2-bgmb-kanan.jpg') bottom right no-repeat;
+	background:#dbebe9 url('../images/mobile/2-bgmb-kanan.jpg') top right no-repeat;
 	width:100%;
 	height:auto;
     padding-bottom:15px;
